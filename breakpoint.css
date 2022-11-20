@@ -1,4 +1,7 @@
 @media(width <1296px) {
+    #hero{
+        margin-top: 4rem;
+    }
     .content {
         margin-top: 2rem;
     }
@@ -74,7 +77,7 @@
 @media (width <=672px) {
     #hero {
         flex-direction: column;
-        height: 120vh;
+        height: 180vh;
     }
 
     .text-2 {
@@ -92,7 +95,7 @@
 
     .details {
         flex-direction: column;
-        height: 125vh;
+        height: 120vh;
     }
 
     .lf img,
@@ -110,9 +113,6 @@
         margin-right: 1rem;
     }
 
-    .ln {
-        margin-bottom: .5rem;
-    }
 }
 
 @media(width <=380) {

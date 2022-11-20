@@ -59,7 +59,7 @@ nav {
 /*Footer begin*/
 
 footer {
- 
+    background-color: #757575;
     bottom: 0;
     width: 100%;
     text-align: center;
@@ -190,6 +190,10 @@ section {
     width: 75%;
     padding-top: 1rem;
     font-size: 1.2rem;
+}
+
+.ln {
+    margin-bottom: 1rem;
 }
 
 /*main ends*/
