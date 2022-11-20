@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #D3D3D3;
+}
+
+/*NavBar begin */
+
+header {
+    height: 4rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgb(102, 102, 102);
+}
+
+nav {
+    margin: 0 4rem;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: black;
+}
+
+.nav-links {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: .3s ease-in-out;
+}
+
+.nav-links:hover {
+    color: rgb(255, 128, 0);
+}
+
+/*NavBar ends*/
+
+
+/*Footer begin*/
+
+footer {
+ 
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+}
+
+footer a {
+    color: black;
+    font-weight: 600;
+}
+
+/*Footer ends*/
+
+
+/*Main begins*/
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+    flex-wrap: wrap;
+}
+
+.text-1 {
+    font-size: 5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.text-1 span {
+    background-color: #757575;
+    color: white;
+}
+
+.text-2 {
+    padding-top: 2rem;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+.learn {
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+
+.fa-arrow-right-from-bracket {
+    transition: .3s ease-in-out;
+}
+
+.learn:hover .fa-arrow-right-from-bracket {
+    transform: translateX(5px) scale(1.3);
+    color: rgb(255, 128, 0);
+}
+
+.img-content {
+    display: flex;
+    margin-right: 4rem;
+    align-items: flex-end;
+    margin-top: 2rem;
+}
+
+.cover1 {
+    height: 25rem;
+    width: 15rem;
+    border-radius: 8rem;
+    overflow: hidden;
+    margin-right: 2rem;
+}
+
+.cover2 {
+    height: 35rem;
+    width: 15rem;
+    border-radius: 8rem;
+    overflow: hidden;
+}
+
+.img-1,
+.img-2,
+.img-3 {
+    scale: 1.3;
+    transition: 1s ease-in-out;
+}
+
+.img-1:hover,
+.img-2:hover,
+.img-3:hover {
+    scale: 1.1;
+}
+
+.lf {
+    margin-left: 4rem;
+    margin-top: 0;
+    margin-right: 0;
+}
+
+.rt {
+    margin-top: 0;
+    margin-right: 0;
+    margin-right: 4rem;
+}
+
+.lf img,
+.rt img {
+    width: 35rem;
+    height: 25rem;
+    border-radius: 5rem;
+}
+
+.taj {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.text-3 {
+    width: 75%;
+    padding-top: 1rem;
+    font-size: 1.2rem;
+}
+
+/*main ends*/

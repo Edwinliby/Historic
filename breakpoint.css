@@ -1,0 +1,129 @@
+@media(width <1296px) {
+    .content {
+        margin-top: 2rem;
+    }
+
+    .text-1 {
+        width: 90%;
+        font-size: 3rem;
+    }
+
+    .text-2 {
+        width: 70%;
+    }
+
+    .cover1,
+    .img-1 {
+        width: 10rem;
+        height: 20rem;
+    }
+
+    .cover2,
+    .img-2 {
+        width: 10rem;
+        height: 30rem;
+    }
+
+    .lf img,
+    .rt img {
+        width: 25rem;
+        height: 15rem;
+        border-radius: 3rem;
+    }
+
+}
+
+@media(width <990px) {
+
+    .text-1,
+    .text-2 {
+        width: 100%;
+    }
+
+    .cover1 {
+        margin-left: 2rem;
+        height: 25rem;
+    }
+
+    .img-1 {
+        height: 25rem;
+    }
+
+    .cover2,
+    .img-2 {
+        width: 10rem;
+        height: 35rem;
+    }
+
+    nav {
+        margin: 0 1rem;
+    }
+
+    .footer {
+        font-size: .8rem;
+    }
+
+    .lf img,
+    .rt img {
+        width: 30rem;
+        height: 25rem;
+        border-radius: 3rem;
+    }
+}
+
+@media (width <=672px) {
+    #hero {
+        flex-direction: column;
+        height: 120vh;
+    }
+
+    .text-2 {
+        width: 90%;
+    }
+
+    .content {
+        margin-left: 1rem;
+    }
+
+    .img-content {
+        margin-right: 1rem;
+        align-items: flex-start;
+    }
+
+    .details {
+        flex-direction: column;
+        height: 125vh;
+    }
+
+    .lf img,
+    .rt img {
+        width: 25rem;
+        height: 20rem;
+        border-radius: 3rem;
+    }
+
+    .lf {
+        margin-left: 1rem;
+    }
+
+    .rt {
+        margin-right: 1rem;
+    }
+
+    .ln {
+        margin-bottom: .5rem;
+    }
+}
+
+@media(width <=380) {
+    #hero {
+        height: 140vh;
+    }
+
+    .lf img,
+    .rt img {
+        width: 22rem;
+        height: 27rem;
+        border-radius: 3rem;
+    }
+}
